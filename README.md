@@ -5,7 +5,13 @@ Para ello hemos elegido un dataset con 5 frutas, siendo estas: aguacate, kiwi, l
 También se han escogido imagenes fuera del dataset de entrenamiento para validar nuestros modelos, 10 por cada tipo.
 
 ## Parámetros de evaluación del modelo
-**loss: 0.2621 - accuracy: 0.9026 - val_loss: 0.1863 - val_accuracy: 0.9625**
+```
+loss: 0.2621
+val_loss: 0.1863
+
+accuracy: 0.9026 
+val_accuracy: 0.9625
+```
 
 ### Classification Report Validation
 ```
