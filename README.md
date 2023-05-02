@@ -8,6 +8,7 @@ También se han escogido imagenes fuera del dataset de entrenamiento para valida
 **loss: 0.2621 - accuracy: 0.9026 - val_loss: 0.1863 - val_accuracy: 0.9625**
 
 ### Classification Report Validation
+`
               precision    recall  f1-score   support
 
     aguacate       0.88      0.94      0.91        16
@@ -19,11 +20,12 @@ También se han escogido imagenes fuera del dataset de entrenamiento para valida
     accuracy                           0.96        80
    macro avg       0.96      0.96      0.96        80
 weighted avg       0.96      0.96      0.96        80
-
+`
 
 ## Tasa de acierto de cada modelo
 
 ### Classification Report Testing
+`
               precision    recall  f1-score   support
 
     aguacate       0.67      0.40      0.50        10
@@ -35,7 +37,7 @@ weighted avg       0.96      0.96      0.96        80
     accuracy                           0.78        50
    macro avg       0.83      0.78      0.78        50
 weighted avg       0.83      0.78      0.78        50
-
+`
 
 
 # Entorno
