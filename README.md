@@ -5,14 +5,38 @@ Para ello hemos elegido un dataset con 5 frutas, siendo estas: aguacate, kiwi, l
 También se han escogido imagenes fuera del dataset de entrenamiento para validar nuestros modelos, 10 por cada tipo.
 
 ## Parámetros de evaluación del modelo
-1. Mario Alonso
-2. Bogdan Voicila
-3. Alejandro Leal
+**loss: 0.2621 - accuracy: 0.9026 - val_loss: 0.1863 - val_accuracy: 0.9625**
+
+### Classification Report Validation
+              precision    recall  f1-score   support
+
+    aguacate       0.88      0.94      0.91        16
+        kiwi       1.00      1.00      1.00        16
+       limon       1.00      1.00      1.00        16
+     naranja       1.00      1.00      1.00        16
+        piña       0.93      0.88      0.90        16
+
+    accuracy                           0.96        80
+   macro avg       0.96      0.96      0.96        80
+weighted avg       0.96      0.96      0.96        80
+
 
 ## Tasa de acierto de cada modelo
-1. Mario Alonso
-2. Bogdan Voicila
-3. Alejandro Leal
+
+### Classification Report Testing
+              precision    recall  f1-score   support
+
+    aguacate       0.67      0.40      0.50        10
+        kiwi       1.00      0.70      0.82        10
+       limon       1.00      0.90      0.95        10
+     naranja       1.00      1.00      1.00        10
+        piña       0.50      0.90      0.64        10
+
+    accuracy                           0.78        50
+   macro avg       0.83      0.78      0.78        50
+weighted avg       0.83      0.78      0.78        50
+
+
 
 # Entorno
 
