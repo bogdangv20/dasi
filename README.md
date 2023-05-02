@@ -33,3 +33,6 @@ Para Windows se puede descargar aquí: https://www.python.org/ftp/python/3.7.9/p
 5. Lanzar jupyter
 `jupyter notebook`
 
+## Enlaces
+https://frogames.es/la-guia-definitiva-de-las-redes-neuronales-convolucionales/
+
