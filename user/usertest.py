@@ -41,9 +41,9 @@ for filename in os.listdir(filepath):
 
         except Exception as e:
             error += 1
-            print(f'{e=}')
+            print(f'{e}')
 
-            log.write(f'{e=}\n')      
+            log.write(f'{e}\n')      
             log.write(f'Error in {filename}\n\n')
             # shutil.move(path, f'./exception/{filename}')
 
