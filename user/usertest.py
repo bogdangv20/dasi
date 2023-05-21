@@ -7,7 +7,7 @@ import shutil
 filepath = './images/'
 
 classes = ['aguacate', 'kiwi', 'limon', 'naranja', 'piña']
-model = models.load_model('../model/model.h5')
+model = models.load_model('../model/modelfinal.h5')
 
 def get_class(filename):
     return filename.split('_')[0]
